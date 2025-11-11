@@ -13,4 +13,18 @@ body {
 
 img {
     visibility: hidden;
+    height: 300px;
+    animation-name: aparecer ;
+    animation-duration: 4.5s;
+}
+@keyframes aparecer {
+    0% {opacity: 0%;}
+    25% {opacity: 25%;}
+    45% {opacity: 45%;}
+    50% {opacity: 50%;}
+    75% {opacity: 75%;}
+    80% {opacity: 80%;}
+    95% {opacity: 95%;}
+    100% {opacity: 100%;}
+
 }
